@@ -1,0 +1,8 @@
+# Backup task example
+# -> source/path/
+# @ dest/path/
+# +included/path/
+# +included/file.txt
+# -exluded/path/
+# -excluded/file.txt
+# <-
