@@ -73,7 +73,7 @@ In this way we exclude all the file and folders, except for the ones we have inc
 > See below for why wee need this. 
 
 
-Note that for the [way rsync works](https://stackoverflow.com/a/15701772), if the folder you want include is deeper in the source directory structure, **you must define an include line for each acestor of the required folder**.
+Note that for the [way rsync works](https://stackoverflow.com/a/15701772), if the folder you want include is deeper in the source directory structure, **you must define an include line for each ancestor of the required folder**.
 
 For example if your source directory is `/home/homeassistant/.homeassistant/` and the folder you want to backup is `/home/homeassistant/.homeassistant/custom_components/sonoff/`, your task will be
 
@@ -86,11 +86,11 @@ For example if your source directory is `/home/homeassistant/.homeassistant/` an
 <-
 ```
 
-> Note the use of the triple asterisk pattern
+> Note the use of the triple asterisk pattern!
 >
-> As noted above,    with the triple asterisk pattern we were able to save an include line in the task definition.
+> As noted above, with the triple asterisk pattern we were able to save an include line in the task definition.
 >
-> Without this notation, the task would be
+> In fact, without this notation, the task would be
 > ```
 > -> /home/homeassistant/.homeassistant/
 > @ /dest/path/
