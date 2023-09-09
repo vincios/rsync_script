@@ -68,7 +68,7 @@ In this way we exclude all the file and folders, except for the ones we have inc
 >
 > From the rsync man page: *trailing `dir_name/***` will match both the directory (as if `dir_name/` had been specified) and everything in the directory (as if `dir_name/**` had been specified)*.
 >
-> So `included_folder/***` means in one line: *include both the `included_folder` foder and all its content*
+> So `included_folder/***` means in one line: *include both the `included_folder` folder and all its content*
 >
 > See below for why wee need this. 
 
