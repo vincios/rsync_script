@@ -58,7 +58,7 @@ If you want to backup only some files or folder of the source directory, use thi
 @ /destination/directory/
 + included_file.ext
 + included_folder/***
--*
+- *
 <-
 ```
 
@@ -82,7 +82,7 @@ For example if your source directory is `/home/homeassistant/.homeassistant/` an
 @ /dest/path/
 +custom_components/
 +custom_components/sonoff/***
--*
+- *
 <-
 ```
 
@@ -97,6 +97,6 @@ For example if your source directory is `/home/homeassistant/.homeassistant/` an
 > +custom_components/
 > +custom_components/sonoff/
 > +custom_components/sonoff/**
-> -*
+> - *
 > <-
 > ```
