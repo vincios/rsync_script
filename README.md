@@ -110,7 +110,7 @@ $ crontab -e
 
 You can use [this site](https://crontab.guru) to generate the cron line. 
 
-For example, this line will execute the script each day ad 6AM
+For example, this line will execute the script each day at 6AM
 
 ```
 0 6 * * * $HOME/.backup/rscript.sh >/dev/null 2>&1
